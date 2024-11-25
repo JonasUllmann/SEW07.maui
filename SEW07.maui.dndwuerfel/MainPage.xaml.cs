@@ -19,10 +19,8 @@ namespace SEW07.maui.dndwuerfel
         {
             InitializeComponent();
 
-            // Initialize the delegate
             diceroller = new Action<int[]>(normaldiceroll);
 
-            // Initialize Dice objects in the constructor
             di20 = new Dice("d20", "d20.png", 20, new int[] { 1, 20}, diceroller);
             di10 = new Dice("d10", "d10.png", 10, new int[] { 1, 10}, diceroller);
             di12 = new Dice("d12", "d12.png", 12, new int[] { 1, 12}, diceroller);
@@ -50,7 +48,7 @@ namespace SEW07.maui.dndwuerfel
         private void Button_Clicked(object sender, EventArgs e)
         {
 
-            imgwuerfel.RelRotateTo(0);
+            
 
             switch (currentdice)
             {
@@ -152,6 +150,7 @@ namespace SEW07.maui.dndwuerfel
                 imgwuerfel.Source = di4.Picturepath;
             }
         }
+
     }
 
     public class Dice
@@ -159,7 +158,7 @@ namespace SEW07.maui.dndwuerfel
         private string name;
         private string picturepath;
         private int index;
-        private int[] dicerange; //max,min,step
+        private int[] dicerange; //min,max
         private Action<int[]> diceroller;
 
         public Dice(string name, string picturepath, int index, int[] dicerange, Action<int[]> diceroller)
