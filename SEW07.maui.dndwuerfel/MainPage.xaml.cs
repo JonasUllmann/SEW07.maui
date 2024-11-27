@@ -21,9 +21,9 @@ namespace SEW07.maui.dndwuerfel
 
             diceroller = new Action<int[]>(normaldiceroll);
 
-            di20 = new Dice("d20", "d20.png", 20, new int[] { 1, 20}, diceroller);
-            di10 = new Dice("d10", "d10.png", 10, new int[] { 1, 10}, diceroller);
-            di12 = new Dice("d12", "d12.png", 12, new int[] { 1, 12}, diceroller);
+            di20 = new Dice("d20", "d20.png", 20, new int[] { 1, 21}, diceroller);
+            di10 = new Dice("d10", "d10.png", 10, new int[] { 1, 11}, diceroller);
+            di12 = new Dice("d12", "d12.png", 12, new int[] { 1, 13}, diceroller);
             di100 = new Dice("d100", "d100.png", 100, new int[] { 0, 10}, diceroller);
             di8 = new Dice("d8", "d8.png", 8, new int[] { 1, 8}, diceroller);
             di6 = new Dice("d6", "d6.png", 6, new int[] { 1, 6}, diceroller);
@@ -82,7 +82,7 @@ namespace SEW07.maui.dndwuerfel
                     break;
             }
             
-            imgwuerfel.RotateTo(360);
+            imgwuerfel.RelRotateTo(360);
             
 
 
