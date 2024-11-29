@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEW07.maui.dndwuerfel", "SEW07.maui.dndwuerfel\SEW07.maui.dndwuerfel.csproj", "{79D21D04-9D77-4428-B4BA-C66F17BDF738}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEW03.07.04.Bildgallerie", "SEW03.07.04.Bildgallerie\SEW03.07.04.Bildgallerie.csproj", "{0B20AD43-379B-469B-93E4-89D0EA8830CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,12 @@ Global
 		{79D21D04-9D77-4428-B4BA-C66F17BDF738}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79D21D04-9D77-4428-B4BA-C66F17BDF738}.Release|Any CPU.Build.0 = Release|Any CPU
 		{79D21D04-9D77-4428-B4BA-C66F17BDF738}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0B20AD43-379B-469B-93E4-89D0EA8830CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B20AD43-379B-469B-93E4-89D0EA8830CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B20AD43-379B-469B-93E4-89D0EA8830CA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0B20AD43-379B-469B-93E4-89D0EA8830CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B20AD43-379B-469B-93E4-89D0EA8830CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B20AD43-379B-469B-93E4-89D0EA8830CA}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

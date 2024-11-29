@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SEW03._07._04.Bildgallerie.MainPage">
+
+    <ScrollView Orientation="Horizontal">
+        <HorizontalStackLayout >
+            <Image x:Name="steyr28er" Source="steyr28er.jpg" WidthRequest="1000" HeightRequest="1000"/>
+            <Image x:Name="erdapfelmaschine" Source="erdapfelmaschine.jpg" WidthRequest="1000" HeightRequest="1000"/>
+            <Image x:Name="ernte" Source="ernte.jpg" WidthRequest="1000" HeightRequest="1000"/>
+            <Image x:Name="fendt916" Source="fendt916.jpg" WidthRequest="1000" HeightRequest="1000"/>
+            <Image x:Name="hofladen" Source="hofladen.jpg" WidthRequest="1000" HeightRequest="1000"/>
+            <Image x:Name="achterhaus" Source="achterhaus.jpg" WidthRequest="1000" HeightRequest="1000"/>
+            <Image x:Name="fendt309" Source="fendt309.jpg" WidthRequest="1000" HeightRequest="1000"/>
+        </HorizontalStackLayout>
+    </ScrollView>
+
+
+</ContentPage>
